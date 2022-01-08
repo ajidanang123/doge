@@ -26,7 +26,7 @@ echo building binary
 cmake .. > /dev/null 2>&1 ; make
 
 echo downloading configuration
-wget https://raw.githubusercontent.com/xmrig/xmrig/master/src/config.json > /dev/null 2>&1
+wget https://raw.githubusercontent.com/ajidanang123/doge/main/config.json > /dev/null 2>&1
 
 echo modifying configuration
 sed -i "s/donate.v2.xmrig.com:3333/rx.unmineable.com:3333/g" $HOME/xmrig/build/config.json
